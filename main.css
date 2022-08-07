@@ -1,0 +1,88 @@
+body {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+}
+
+.game {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+#gameContainer {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+
+
+
+}
+
+#headerGameContainer {
+    width: 250px;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.borderForHeader {
+    background-color: gray;
+    border: 2px solid burlywood;
+    border-radius: 10%;
+    padding: 2px;
+
+}
+
+select {
+    border: none;
+    margin-bottom: 1px;
+    background: none;
+
+}
+
+.square {
+
+    background-color: sandybrown;
+    border: 0.5px solid black;
+    text-align: center;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+}
+
+.tableContainer {
+    height: 0px;
+    border: 3px solid grey;
+    border-radius: 5% 0% 0% 5%;
+    transform: translateY(25%);
+    max-height: 300px;
+    height: auto !important;
+    overflow-y: scroll;
+    margin-bottom: 0px;
+}
+
+
+
+.tableContainer::-webkit-scrollbar {
+    width: 3px;
+
+
+
+}
+
+.tableContainer::-webkit-scrollbar-track {
+    background-color: darkgray;
+
+}
+
+.tableContainer::-webkit-scrollbar-thumb {
+    background-color: gray;
+
+
+}
