@@ -220,7 +220,7 @@ function createBoardGame() {
                         return;
                     }
                     else {
-                        let flagIcon = createElements('i', document.getElementById(e.path[0].id), null, `${e.path[0].id}_flag`, null, 'fa-solid fa-flag')
+                        let flagIcon = createElements('i', document.getElementById(e.srcElement.id), null, `${e.srcElement.id}_flag`, null, 'fa-solid fa-flag')
                         flagIcon.style.color = 'red'
                         updateLeftFlag('down')
                         boardGame[i][j].isFlag = true
